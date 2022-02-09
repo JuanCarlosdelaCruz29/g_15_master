@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    /* justify-content alinea en el eje "X" */
+    justify-content: center;
+    /*  align-items alinea en el eje "Y"*/
+    align-items: center;
+    /* vh es una medida relativa  */
+    height: 100vh;
+    
+}
+
+.padre{
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    /* acomodar los elementos en mi eje x o horizontal */
+    justify-content: center;
+    /* acomodar los elementos en mi eje y o vertical */
+    align-items: center;
+
+
+}
+
+.hijo{
+    width: 40%;
+    height: 40%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hija{
+    width: 40%;
+    height: 40%;
+    border: 2px solid green;
+    
+}
+
+
+.nieto{
+    width: 40%;
+    height: 40%;
+    border: 2px solid blue;
+    
+}

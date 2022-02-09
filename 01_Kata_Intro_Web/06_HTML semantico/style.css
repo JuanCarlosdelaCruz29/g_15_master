@@ -1,0 +1,18 @@
+
+
+.main{
+    border: 2px solid black;
+    display: flex;
+    width: 700px;
+    height: 700px;
+}
+
+.demon{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    
+    
+}
