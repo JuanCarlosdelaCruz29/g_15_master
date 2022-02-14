@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 33%;
+    height: 100vh;
+}
+
+.azul1{
+    background-color: blue;
+}
+
+.azul2{
+    background-color: rgb(123, 123, 233);
+}
+
+.naranja{
+    background-color: orange;
+}
+
+@media only screen and (max-width:1200px){
+    .azul1{
+        width: 50%;
+    }
+    .azul2{
+        width: 50%;
+    }
+    .naranja{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .azul1{
+        width: 100%;
+    }
+    .azul2{
+        width: 100%;
+    }
+    .naranja{
+        width: 100%;
+    }
+}

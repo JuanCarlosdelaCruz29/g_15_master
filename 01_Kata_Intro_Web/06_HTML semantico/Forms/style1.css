@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.principal{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 700px;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+  
+}
+.encabezado{
+    display: flex;
+    width: 60%;
+    height: 10%;
+    /* border: 2px solid red; */
+    background-color: rgb(31, 133, 218);
+    justify-content: center;
+    color: aliceblue;  
+}
+
+.form1{
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 80%;
+    height: 80%;
+   
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+
+}
+

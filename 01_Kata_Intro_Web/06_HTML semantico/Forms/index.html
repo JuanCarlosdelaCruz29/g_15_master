@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <fieldset>
+        <legend>Esta es una etiqueta</legend>
+    <form name="formulario" action="" method="">
+        <label for="nombre" >Nombre</label>
+        <input type="text" name="" id="nombre" value="" placeholder="escriba aqui" >
+        <br>
+
+        <label for="cajita" >Ejemplo de texto</label>
+        <textarea name="" id="cajita" cols="5" rows="10" ></textarea>
+        <br>
+
+        <label for="correo" >E-mail</label>
+        <input type="email" placeholder="email" id="correo" name="correo" >
+        <br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" id="password" name="password">
+        <br>
+        <input type="radio" name="radio1" id="radio1" value="amarillo" checked >Amarillo
+        <input type="radio" name="radio2" id="radio2" value="azul">Azul
+        <input type="checkbox" name="radio3" id="radio3" value="negro">Negro
+        <br><br>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Audi">Audi</option>
+        </select><br><br>
+        <input type="submit">
+    </fieldset>
+
+
+    </form>
 </body>
 </html>

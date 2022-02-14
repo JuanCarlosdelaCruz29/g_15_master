@@ -1,0 +1,63 @@
+div{
+    width: 100vw;
+    height: 200px;
+}
+
+div.segundo{
+    width: 50vw;
+    height: 150px;
+    background-color: black;
+}
+
+@media only screen and (max-width:1500px){
+    div{
+        background-color: aqua;
+    }
+    div.segundo{
+        width: 30vw;
+    }
+}
+@media only screen and (max-width:1100px){
+    div{
+        background-color: blueviolet;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    div{
+        background-color: green;
+    }
+}
+@media only screen and (max-width:700px){
+    p{
+        color: blueviolet;
+    }
+    div{
+        background-color: chocolate;
+    }
+    div.segundo{
+        width: 100vw;
+    }
+}
+/* ambas condiciones deben cumplirse para que se ejecute esta instruccion */
+@media only screen and (max-width:500px)and (min-resolution:300dpi) {
+    p{
+        color: black;
+    }
+    div{
+        background-color: yellow;
+    }
+}
+/* se ejecuta cuando una condicion se cumple */
+@media only screen and (max-width:500px), (min-resolution:300dpi) {
+    p{
+        color: black;
+    }
+    div{
+        background-color: rgb(238, 61, 17);
+    }
+}
+
+
+
+    
