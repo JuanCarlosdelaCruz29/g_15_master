@@ -1,0 +1,56 @@
+p{
+    display: none;
+}
+
+a:hover + p{
+    background-color: rgb(28, 233, 154);
+    display:inline;
+}
+
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    background-color: brown;
+}
+
+textarea:active{
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.uno{
+    background-color: black;
+    /* me permite manipular la posicion del elemento, sin afectar a los demas elementos, es como si estuviera sobrepuesto */
+    /* position: absolute;
+    top:300px;
+    left: 400px; */
+    position:fixed;
+    top: 10px;
+    left: 130px;
+    z-index:-1;
+    
+}
+
+.dos{
+    background-color: aqua;
+}
+
+.tres{
+    background-color: blue;
+}
+
+.cuatro{
+    background-color: blueviolet;
+}

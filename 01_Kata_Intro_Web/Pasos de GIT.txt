@@ -1,0 +1,15 @@
+GIT: para subir tu repo a git hub
+
+git init    me permite inicializar git
+git add .   me permite agregar archivos y carpetas o actualizar codigo.
+git status  es para comprobar en que parte del proceso voy
+git commit -m "mi primer repositorio"   creaste 
+git config --global user.mail jcruz.quito@gmail.com
+git config --global user.name JuanCarlosdelaCruz29
+git branch -M main
+git remote add origin https://github...
+git push -u origin main 
+
+mkdir prueba1    para crear carpetas
+touch hola.html  para crear achivos .html .css u otros
+rm -rf g_15_master     es para borrar la carpeta y sus archivos 
